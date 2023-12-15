@@ -20,7 +20,7 @@ export default function SeparationBars(props) {
     return () => {
       document.removeEventListener("scroll", handleScroll)
     }
-  },[])
+  },[]) 
 
   return (
     <div className="separation" >
